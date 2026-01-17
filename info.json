@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "title": "Railway Tunnel",
   "author": "OpenAI",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "description": "Adds a rail-connecting tunnel inspired by the yellow underground belt, scaled to double size."
 }
