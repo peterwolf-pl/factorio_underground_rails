@@ -50,9 +50,9 @@ local recipe = table.deepcopy(data.raw.recipe["underground-belt"])
 recipe.name = "railway-tunnel"
 recipe.enabled = false
 recipe.ingredients = {
-  { "underground-belt", 2 },
-  { "rail", 10 },
-  { "iron-plate", 20 }
+  { type = "item", name = "underground-belt", amount = 2 },
+  { type = "item", name = "rail", amount = 10 },
+  { type = "item", name = "iron-plate", amount = 20 }
 }
 recipe.result = "railway-tunnel"
 
